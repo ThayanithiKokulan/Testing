@@ -1,0 +1,34 @@
+//To find version of git
+git --version
+
+//Clearing screen
+clear
+
+//create a local repository
+git init project1
+
+//list files in the repository
+ls
+
+//list background programs running
+ls -al
+
+//to find control structure of the vc system
+tree .git | more
+
+//find status of git
+git status
+
+//creating new file in local repository
+touch 'file name'
+
+//adding to vc
+git add'file name'
+
+//commit to vc
+git commit -m "Message"
+
+//push to vc
+git push
+
+git branch
