@@ -34,7 +34,11 @@ git push
 //This will tell you how many branches in your vc
 git branch
 
+//Create new Branch
 git branch branch Name
 
 //This will switch the branch
 git checkout branch Name 
+
+//This will merge the branch with the master branch
+git merge master
